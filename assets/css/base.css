@@ -1,0 +1,80 @@
+/* reset */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Roboto:wght@300;400&display=swap');
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* variable */
+:root {
+    --font: 'Roboto', sans-serif;
+    --primary-coclor: #0891b2;
+    --text-color: #828282;
+    --heading-color: #2c2c2c;
+}
+
+/* global */
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    font-family: var(--font);
+    color: var(--text-color);
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.title {
+    color: var(--heading-color);
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
